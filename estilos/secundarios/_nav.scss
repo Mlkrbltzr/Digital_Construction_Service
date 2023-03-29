@@ -1,0 +1,33 @@
+header {
+  background-color: #000;
+  color: #fff;
+
+  .navbar-brand img {
+    filter: invert(1); // invertir el color del logo
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        color: #fff;
+        &:hover {
+          color: #ccc;
+        }
+      }
+    }
+
+    .active {
+      color: #ccc;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: #fff;
+    &:hover {
+      border-color: #ccc;
+    }
+    .navbar-toggler-icon {
+      filter: invert(1); // invertir el color del icono
+    }
+  }
+}

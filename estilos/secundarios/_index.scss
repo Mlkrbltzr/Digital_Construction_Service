@@ -1,0 +1,59 @@
+.index {
+  background-color: #4e4e4e7b;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+
+  .presentacion_index {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+  
+#carouselExampleIndicators {
+  background-color: $carousel-bg;
+}
+
+#carouselExampleIndicators .carousel-control-prev,
+#carouselExampleIndicators .carousel-control-next {
+  color: $carousel-control-color;
+}
+
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+#carouselExampleIndicators .carousel-indicators button {
+  background-color: rgba($carousel-control-color, 0.25);
+}
+
+#carouselExampleIndicators .carousel-item img {
+  border-radius: 2rem;
+}
+
+.seccion_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+
+  .imagen1 {
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2pc;
+  }
+
+  .imagen2 {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2pc;
+
+  }
+}

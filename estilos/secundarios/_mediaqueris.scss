@@ -1,0 +1,48 @@
+@media (min-width: 768px) {
+    .navbar-toggler {
+      display: none;
+    }
+    
+    .navbar-nav {
+      float: right;
+    }
+    
+    .nav-item {
+      display: inline-block;
+      margin-left: 24px;
+    }
+    
+    .nav-link {
+      padding: 24px;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+      background-color: transparent;
+    }
+    
+    .nav-item.active .nav-link {
+      background-color: transparent;
+      border-bottom: 2px solid $navbar-active-color;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 767px) {
+    .index {
+      padding: 1rem;
+    }
+  }
+
+
+  // Media queries personalizadas para el carrusel
+$mq-lg: 992px; // punto de interrupción de 992px
+@media (min-width: $mq-lg) {
+  // Estilo personalizado para el carrusel en pantallas más grandes
+  #carouselExampleIndicators {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+  
