@@ -32,8 +32,8 @@ header .navbar-toggler .navbar-toggler-icon {
   filter: invert(1);
 }
 
-body {
-  background-image: url(./img/amarillo-negro.jpg);
+.body {
+  background-image: url("../../img/amarillo-negro.jpg");
   background-size: cover;
   background-position: center center;
 }
