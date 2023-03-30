@@ -77,7 +77,7 @@ body {
 .seccion_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 5rem;
+  padding: 3rem;
 }
 .seccion_grid .imagen1 {
   grid-column: 1;
