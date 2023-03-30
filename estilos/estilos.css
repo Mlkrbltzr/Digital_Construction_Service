@@ -33,7 +33,7 @@ header .navbar-toggler .navbar-toggler-icon {
 }
 
 body {
-  background-image: url("../../img/amarillo-negro.jpg");
+  background-image: url(./img/amarillo-negro.jpg);
   background-size: cover;
   background-position: center center;
 }
