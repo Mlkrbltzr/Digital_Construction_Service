@@ -42,7 +42,7 @@ header .navbar-toggler .navbar-toggler-icon {
   display: flex;
   justify-content: center;
   background-color: #1c1c1c;
-  background-image: url("../../img/amarillo-negro.jpg");
+  background-image: url("../img/amarillo-negro.jpg");
 }
 
 .index {
