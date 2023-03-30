@@ -79,7 +79,7 @@ body {
 .seccion_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3rem;
+  padding: 2rem;
 }
 .seccion_grid .imagen1 {
   grid-column: 1;
@@ -116,6 +116,9 @@ body {
   justify-content: center;
   position: relative;
   padding: 3rem 1rem;
+}
+.neon .neon-image {
+  border-radius: 0.5pc;
 }
 
 .construccion {

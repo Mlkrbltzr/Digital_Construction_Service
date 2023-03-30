@@ -6,10 +6,12 @@
     justify-content: center;
     text-align: center;
     padding: 3rem 1rem;
+    
   
     .presentacion_mision {
       max-width: 800px;
       margin: 0 auto;
+      
     }
   }
 .neon{
@@ -19,5 +21,8 @@
   justify-content: center;
   position: relative;
   padding: 3rem 1rem;
-  }
+    }
+    .&-image{
+      border-radius: 0.5pc;
+    }
 }
