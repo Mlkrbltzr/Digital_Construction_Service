@@ -21,8 +21,11 @@
   justify-content: center;
   position: relative;
   padding: 3rem 1rem;
+  
     }
     .neon-image{
       border-radius: 0.5pc;
+      max-width: 100%;
+      height: auto;
     }
 }
