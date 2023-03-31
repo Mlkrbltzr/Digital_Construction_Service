@@ -33,7 +33,7 @@ header .navbar-toggler .navbar-toggler-icon {
 }
 
 body {
-  background-image: url("../img/amarillo-negro.jpg");
+  background-image: url("../../img/amarillo-negro.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -79,7 +79,7 @@ body {
 .seccion_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 2rem;
+  padding: 4rem;
 }
 .seccion_grid .imagen1 {
   grid-column: 1;
